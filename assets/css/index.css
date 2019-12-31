@@ -1,0 +1,62 @@
+body {
+    font-family: "Open Sans", arial, sans-serif;
+}
+
+#container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#container h4 {
+    font-weight: bold;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+    
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {
+    height: 450px;
+}
+    
+/* Set gray background color and 100% height */
+.sidenav {
+    float: right;
+    background-color: #f1f1f1;
+    height: 100%;
+    margin-top: -20px;
+    margin-right: 20px;
+}
+    
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+
+    .pengumuman {
+        font-size: 15px;
+
+    }
+
+    .sidenav {
+        height: auto;
+        float: none;
+    }
+
+    .sidenav li {
+        text-align: center;
+    }
+
+    .container {
+        clear: both;
+    }
+    
+    .row.content {
+        margin: 0 auto;
+        padding: 0;
+        height:auto;
+        clear: both;
+    }
+}

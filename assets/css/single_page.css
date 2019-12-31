@@ -1,0 +1,40 @@
+#konten {
+	width: 90%;
+	height: auto;
+    margin: 0 auto;
+    padding: 35px;
+	font-size: 16px;
+	background-color: #f1f1f1;
+	box-shadow: 0 8px 20px 0 rgba(0,0,0,0.4);
+}
+
+#konten > img {
+	width: 40%;
+	height: 40%;
+	float: left;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	border-radius: 5px;
+	display: block;
+}
+
+.deskripsi {
+	text-align: justify;
+	text-indent: 7%;
+	height: auto;
+	font-family: Open-sans, sans-serif, verdana, arial;
+}
+
+@media screen and (max-width: 767px) {
+	#konten img {
+		width: 100%;
+		height: 50%;
+		padding: 10px;
+		border-radius: 5px;
+	}
+
+	.deskripsi {
+		float: none;
+	}
+
+}

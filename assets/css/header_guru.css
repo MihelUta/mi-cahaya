@@ -1,0 +1,83 @@
+.navbar {
+	border-radius: 0px;
+	height: 60px;
+}
+.cahaya-logo {
+	width: 150px;
+	height: 65px;
+	margin-top: -14px;
+	clear: both;
+}
+
+.navbar-inverse {
+    background-color: #C34C21;
+    border-color: #C34C21;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #fff;
+}
+
+.aksi {
+	float: right;
+	padding: 20px;
+}
+
+.aksi > a {
+	padding: 30px;
+	color: #fff;
+}
+
+.aksi > a:hover {
+	color: grey;
+	text-decoration: none;
+}
+
+a.user-profile {
+	color:#5E6974!important;
+}
+
+.user-profile img {
+	width:29px;
+	height:29px;
+	border-radius:50%;
+	margin-right:10px;
+}
+
+.navbar-nav .open .dropdown-menu {
+	position:absolute;
+	background:#fff;
+	margin-top:0;
+	border:1px solid #D9DEE4;
+	-webkit-box-shadow:none;
+	right:0;
+	left:auto;
+	width:220px;
+}
+
+.navbar-nav .open .dropdown-menu.msg_list {
+	width:300px;
+}
+
+.navbar-right {
+	margin-right:0;
+}
+
+@media (max-width: 767px) {
+
+	.cahaya-logo {
+		width: 100px;
+		margin-left: -25px;
+	}
+
+	.aksi {
+		float: none;
+		padding: 25px;
+
+	}
+
+	.aksi > a {
+		padding: 8px;
+		font-size: 13px;
+	}
+}

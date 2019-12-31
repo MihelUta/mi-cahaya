@@ -1,0 +1,114 @@
+#container {
+    width: 90%;
+    padding: 20px;
+}
+
+#container h4 {
+    font-weight: bold;
+}
+
+#sejarah {
+	text-align: justify;
+	font-family: verdana;
+	font-size: 14px;
+	background-color: #f1f1f1;
+	padding: 35px;
+	box-shadow: 0 8px 20px 0 rgba(0,0,0,0.4);
+}
+
+.judul {
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 25px;
+	padding: 25px;
+	text-align: center;
+}
+
+.paragraf1 {
+	text-indent: 5%;
+}
+
+.paragraf2 {
+	text-indent: 5%;
+}
+
+.paragraf3 {
+	text-indent: 5%;
+}
+
+.paragraf4 {
+	text-indent: 5%;
+}
+
+.paragraf5 {
+	text-indent: 5%;
+}
+
+#visi-misi {
+	text-align: justify;
+	background-color: #f1f1f1;
+	padding: 35px;
+	box-shadow: 0 8px 20px 0 rgba(0,0,0,0.4);
+}
+
+.deskripsi {
+	text-indent: 23px;
+}
+
+#guru {
+	background-color: #f1f1f1;
+	padding: 35px;
+	box-shadow: 0 8px 20px 0 rgba(0,0,0,0.4);
+	float: left;
+	text-align: center;
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+	transition: 0.5s;
+	width: 25%;
+	border-radius: 5px;
+	float: left;
+	margin: 5px 5px;
+	padding: 10px;
+    height: 310px;
+
+}
+
+.card:hover {
+	box-shadow: 0 8px 20px 0 rgba(0,0,0,0.3);
+	background-color: #fff;
+}
+
+.card img {
+	border-radius: 5px 5px 0 0;
+	width: 100%;
+	height: 170px;
+}
+
+.card img:hover {
+	opacity: 0.7;
+	border-radius: 5px;
+}
+
+.content {
+	padding: 2px 16px;
+}
+
+.program ul li {
+	text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 767px) {
+	.card {
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		transition: 0.5s;
+		border-radius: 5px;
+		margin: 10px;
+		float: none;
+		width: 100%;
+	}
+}

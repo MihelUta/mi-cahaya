@@ -1,0 +1,48 @@
+.container{
+    /*padding-top: 5%;*/
+    /*margin-top: 20px;*/
+}
+.table-ca{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    position: static;
+}
+.table-ca > tbody > tr > td, 
+.table-ca > tbody > tr > th, 
+.table-ca > tfoot > tr > td, 
+.table-ca > tfoot > tr > th, 
+.table-ca > thead > tr > td, 
+.table-ca > thead > tr > th {
+    padding: 8px;
+    line-height: 1.42;
+    vertical-align: top;
+}
+
+.table-ca > tr > td > img {
+    margin-left: 100px;
+}
+
+
+
+
+.table-c{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    position: static;
+    left: 10%;
+}
+.table-c > tbody > tr > td, 
+.table-c > tbody > tr > th, 
+.table-c > tfoot > tr > td, 
+.table-c > tfoot > tr > th, 
+.table-c > thead > tr > td, 
+.table-c > thead > tr > th {
+    padding: 8px;
+    line-height: 1.42;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+    white-space: nowrap;
+    text-align: center;
+}
